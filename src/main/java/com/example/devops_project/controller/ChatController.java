@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class ChatController {
 
-    @RequestMapping("/ping")
-    public String ping() {
-        return "pong";
+    @RequestMapping("/chat")
+    public String chat() {
+        System.out.println("the chat bot is running");
+        return "working";
     }
 }

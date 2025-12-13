@@ -50,7 +50,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+	
+   <dependency>
+     <groupId>io.github.aminovmaksim</groupId>
+     <artifactId>chatgpt4j</artifactId>
+     <version>1.0.3</version>
+   </dependency>
+ </dependencies>
 
 	<build>
 		<plugins>
