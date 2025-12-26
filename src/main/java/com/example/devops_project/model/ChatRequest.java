@@ -1,7 +1,5 @@
 package com.example.devops_project.model;
 
-import com.microsoft.azure.documentdb.internal.Strings;
-
 public class ChatRequest {
     // define how input is taken
     // this class defines the shape of input data
