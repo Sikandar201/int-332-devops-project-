@@ -30,6 +30,7 @@ public class ChatServiceTest {
         // Or we can check if it's one of the known responses.
         String[] expectedResponses = {
                 "That's an interesting perspective! Tell me more.",
+                "I'm just a hardcoded response for now, but I'm working on it!",
                 "The tests are passing, so that's good news.",
                 "I can't access the external API right now, but I'm still here.",
                 "Hello! This is a pre-defined message."
